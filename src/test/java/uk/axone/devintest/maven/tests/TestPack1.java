@@ -25,4 +25,10 @@ public class TestPack1 {
         System.out.println("Running test 4");
     }
 
+    @Test
+    public void test5(){
+        int x = 10/0;
+        System.out.println("Running test 5");
+    }
+
 }
